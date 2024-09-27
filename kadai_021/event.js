@@ -1,6 +1,6 @@
-console.log(document.getElementById('text'));
+const text = document.getElementById('text');
 
-console.log(document.getElementById('btn'));
+const btn = document.getElementById('btn');
 
   btn.addEventListener('click', () => {
     setTimeout(() => {
